@@ -83,9 +83,6 @@ div {border-color: black;
 }
 
 
-
-
-
 nav{
     background-color: var(--header-color);}
 
@@ -120,7 +117,7 @@ background-color: var(--section-color2);}
 
 .verdone{
      background-color: var(--special-color);   
-     min-width: 368px;
-     min-height: 200px;
-
+     min-width:737px;
+     min-height: 500px;
 }
+
