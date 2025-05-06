@@ -45,6 +45,15 @@ special -- per la sezione diversa
 
 gallery -- per la galleria 
 
-
-
 */
+
+.debug {
+
+    .container{
+        display: flex;
+        background-color: green;
+         height: 100%; /* voglio che sia grande quanto il body */
+    }
+
+
+}
