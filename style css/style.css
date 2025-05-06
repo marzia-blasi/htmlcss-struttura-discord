@@ -41,7 +41,7 @@ colori speciali e gallery
     --section-color1:#1E90FFff;
     --section-color2:#FFC0CBff;
     --section-inverso:#D3D3D3ff;
-    --special-color:
+    --special-color:#228B22ff;
     --gallery-color1:
     --gallery-color2:
     --footer-color1:
@@ -55,14 +55,17 @@ gallery
 container
 colonnabig
 colonnasmall
+verdone
 */
 
+/*quando inserisco elementi qui dentro non mi va nulla.....
+devo cominciare direttamente ad inserirli qui dentro, ora è tardi per farlo continuo così
+*/ 
 .debug {
     *
     {border-color: black;
     
     }
-   
 }
 
 /* forse dopo devo modificare il nome */
@@ -72,11 +75,15 @@ colonnasmall
 }
 
 /* div con i bordi solidi così li vedo meglio, dopo cambia! */
+
 div {border-color: black;
     border-style: dotted;
     display: inline;
     background-color: var(--nav-color);
 }
+
+
+
 
 
 nav{
@@ -85,13 +92,15 @@ nav{
 .hero{background-color: var(--hero-color);}    
 
 .rosone{background-color: var(--div-hero-color);
-    min-width: 602px;
+    
+      min-width: 602px;
     min-height: 200px;
-    margin: 30px;    /* l'ho messo per visualizzarlo ma con flexbox dovrei toglierlo */
+    margin: 30px 0;
+   /*l'ho messo per visualizzarlo ma con flexbox dovrei toglierlo */
 }    
 
 .uguali {
-    margin: 30px;
+    margin: 30px 0;
 }
 
 .colonnabig{
@@ -104,8 +113,14 @@ nav{
     min-height: 200px;
 background-color: var(--section-color2);}
 
-.inverso {
+.inverso, .special {
     flex-direction: row-reverse;
     background-color:var(--section-inverso);
 }
 
+.verdone{
+     background-color: var(--special-color);   
+     min-width: 368px;
+     min-height: 200px;
+
+}
