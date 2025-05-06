@@ -31,9 +31,10 @@ colori speciali e gallery
 */
 
 :root {
-    --nav-color: 
-    --hero-color:
-    --div-hero-color:
+    --header-color:#ADD8E6ff;
+    --nav-color:#DAA520ff ;
+    --hero-color: #00008Bff;
+    --div-hero-color: #EE82EEff;
     --section-color1:
     --section-color2:
     --special-color:
@@ -58,6 +59,20 @@ container
 
 /* div con i bordi solidi così li vedo meglio, dopo cambia! */
 div {border-color: black;
-    border-style: solid;
+    border-style: dotted;
     display: inline;
+    background-color: var(--nav-color);
+  
 }
+
+
+nav{
+    background-color: var(--header-color);}
+
+.hero{background-color: var(--hero-color);}    
+
+.rosone{background-color: var(--div-hero-color);
+    min-width: 602px;
+    min-height: 200px;
+    margin: 30px;    /* l'ho messo per visualizzarlo ma con flexbox dovrei toglierlo */
+}    
