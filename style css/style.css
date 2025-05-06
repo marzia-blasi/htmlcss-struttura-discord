@@ -3,3 +3,31 @@
   margin: o auto;
   background-color: blue;
 }
+
+/* Variabili colori */
+
+/* CSS esempio
+:root {
+  --primary-brand-color: #2563eb;
+} */
+
+:root {
+    --nav-color: 
+    --hero-color:
+    --div-hero-color:
+    --section-color1:
+    --section-color2:
+    --special-color:
+    --gallery-color1:
+    --gallery-color2:
+    --footer-color1:
+    --footer-color2:
+}
+
+/* Utilitis nomi classi 
+
+hero 
+uguali (sezioni uguali) 
+gallery
+
+*/
