@@ -47,16 +47,18 @@ gallery -- per la galleria
 
 */
 
-html, body {
-    height: 100%;
-    width: 100%;
-  }
   
 .container{
     display: flex;
     background-color: green;
-     height: 100%; /* voglio che sia grande quanto il body */
      flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* tutti i nav che hanno la class container, mettono sulla riga i loro items */
+nav.container{ 
+    display: flex;
+    flex-direction: row;
+
 }
