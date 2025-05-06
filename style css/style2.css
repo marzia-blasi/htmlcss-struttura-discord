@@ -1,6 +1,9 @@
 /* Provo una nuova strada per farlo */
 * {
   background-color: blue;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -25,3 +28,23 @@
     --footer-color1:
     --footer-color2:
 }
+
+/* classi che servono 
+
+debug -- per tutte le altezze 
+
+container -- per flexbox 
+
+i vari colori che devono essere separati
+
+hero -- identifica la sezione 
+
+inverso -- per il posizionamento diverso dei div 
+
+special -- per la sezione diversa 
+
+gallery -- per la galleria 
+
+
+
+*/
