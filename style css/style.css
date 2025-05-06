@@ -34,16 +34,24 @@ colori speciali e gallery
 */
 
 :root {
+
+    /* Colori nav ed hero */
     --header-color:#ADD8E6ff;
     --nav-color:#DAA520ff ;
     --hero-color: #00008Bff;
     --div-hero-color: #EE82EEff;
+
+    /* colori sezione  */
     --section-color1:#1E90FFff;
     --section-color2:#FFC0CBff;
     --section-inverso:#D3D3D3ff;
+
+    /* colori speciali e gallery  */
     --special-color:#228B22ff;
-    --gallery-color1:
-    --gallery-color2:
+    --gallery-color1:#20B2AAff;
+    --gallery-color2:#F08080ff;
+
+    /* colori footer */
     --footer-color1:
     --footer-color2:
 }
