@@ -1,7 +1,7 @@
 /* Utilitis */
 * {
-  margin: o auto;
-  background-color: blue;
+  background-color: rgb(135, 135, 206);
+  box-sizing: border-box;
 }
 
 /* Variabili colori */
@@ -44,9 +44,20 @@ colori speciali e gallery
 }
 
 /* Utilitis nomi classi 
-
 hero 
 uguali (sezioni uguali) 
 gallery
-
+container
 */
+
+/* forse dopo devo modificare il nome */
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+/* div con i bordi solidi così li vedo meglio, dopo cambia! */
+div {border-color: black;
+    border-style: solid;
+    display: inline;
+}
