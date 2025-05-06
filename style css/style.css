@@ -1,7 +1,10 @@
 /* Utilitis */
 * {
   background-color: rgb(135, 135, 206);
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  
 }
 
 /* Variabili colori */
@@ -35,8 +38,9 @@ colori speciali e gallery
     --nav-color:#DAA520ff ;
     --hero-color: #00008Bff;
     --div-hero-color: #EE82EEff;
-    --section-color1:
-    --section-color2:
+    --section-color1:#1E90FFff;
+    --section-color2:#FFC0CBff;
+    --section-inverso:#D3D3D3ff;
     --special-color:
     --gallery-color1:
     --gallery-color2:
@@ -49,7 +53,17 @@ hero
 uguali (sezioni uguali) 
 gallery
 container
+colonnabig
+colonnasmall
 */
+
+.debug {
+    *
+    {border-color: black;
+    
+    }
+   
+}
 
 /* forse dopo devo modificare il nome */
 .container{
@@ -62,7 +76,6 @@ div {border-color: black;
     border-style: dotted;
     display: inline;
     background-color: var(--nav-color);
-  
 }
 
 
@@ -76,3 +89,21 @@ nav{
     min-height: 200px;
     margin: 30px;    /* l'ho messo per visualizzarlo ma con flexbox dovrei toglierlo */
 }    
+
+.uguali {
+    margin: 30px;
+}
+
+.colonnabig{
+    min-width: 368px;
+    min-height: 200px;
+    background-color: var(--section-color1);
+}
+
+.colonnasmall{ min-width: 368px;
+    min-height: 200px;
+background-color: var(--section-color2);}
+
+.inverso {
+    background-color:var(--section-inverso);
+}
