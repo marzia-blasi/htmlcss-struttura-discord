@@ -60,5 +60,9 @@ gallery -- per la galleria
 nav.container{ 
     display: flex;
     flex-direction: row;
+}
 
+nav div {
+    border-color: black;
+    border-style: solid;
 }
