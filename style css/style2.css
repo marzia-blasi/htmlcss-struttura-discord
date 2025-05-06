@@ -32,7 +32,7 @@
 
 /* classi che servono 
 
-debug -- per tutte le altezze 
+debug -- per tutte le altezze Ok ma mi manca la possibilità di usarlo come a lezione quindi non ha del tutto senso usarlo... 
 
 container -- per flexbox 
 
@@ -49,13 +49,15 @@ gallery -- per la galleria
 */
 body{ height: 100%;}
 
-.debug {
 
-    .container{
-        display: flex;
-        background-color: green;
-         height: 100%; /* voglio che sia grande quanto il body */
-    }
-
-
+.container{
+    display: flex;
+    background-color: green;
+     height: 100%; /* voglio che sia grande quanto il body */
 }
+
+nav.debug  {
+    height: 100px;
+   } 
+
+
