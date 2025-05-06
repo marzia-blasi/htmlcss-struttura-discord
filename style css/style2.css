@@ -4,8 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
-  
 }
 
 :root {
@@ -59,12 +57,24 @@ gallery -- per la galleria
     align-items: center;
 }
 
+main{
+    flex-basis:auto;
+}
 nav.debug  {
+    display: flex;
     height: 100px;
    } 
+   
+/* selettore che indica -> all'interno di nav qualsiasi div  */
+nav div{border: solid;}
 
 section.hero {
     background-color: var(--hero-color);
     height: 100px;
-  width: 100;
+  width: 100px;
 }
+
+/* visto che non posso usare debug come a lezione do una misura standard ad ogni elemento e poi vado a modificare perchè così non capisco nulla  */
+
+.area1, .area2{height: 100px;
+    width: 100px;}
