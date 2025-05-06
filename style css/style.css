@@ -9,7 +9,26 @@
 /* CSS esempio
 :root {
   --primary-brand-color: #2563eb;
-} */
+} 
+
+colori nav ed hero 
+--goldenrod: #DAA520ff;
+--light-blue: #ADD8E6ff;
+--violet-web-color: #EE82EEff;
+--navy-blue: #00008Bff;
+
+colori sezione 
+--dodger-blue: #1E90FFff;
+--timberwolf: #D3D3D3ff;
+--pink: #FFC0CBff;
+
+colori speciali e gallery 
+--light-coral: #F08080ff;
+--forest-green: #228B22ff;
+--light-sea-green: #20B2AAff;
+
+
+*/
 
 :root {
     --nav-color: 
